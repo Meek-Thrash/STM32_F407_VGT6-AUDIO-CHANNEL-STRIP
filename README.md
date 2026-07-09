@@ -80,6 +80,7 @@ The application uses DMA double buffering to achieve continuous audio streaming 
 ### Audio path
 
 
+```text
 I2S RX DMA
       │
       ▼
@@ -108,6 +109,7 @@ Convert to 24-bit
       │
       ▼
 I2S TX DMA
+```
 
 
 The DMA interrupt callbacks only signal buffer availability by setting synchronization flags.
