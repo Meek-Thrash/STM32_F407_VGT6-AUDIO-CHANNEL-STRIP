@@ -119,7 +119,6 @@ static void MX_I2S2_Init(void);
 static void MX_ADC1_Init(void);
 static void MX_TIM2_Init(void);
 /* USER CODE BEGIN PFP */
-
 void processBlock(int32_t *in, int32_t *out);
 
 void update_leds(float rms, uint8_t channel);
