@@ -26,11 +26,11 @@ This project is intended as a software demonstration rather than a complete audi
 
 Instead, it serves as a practical demonstration of how to integrate multiple STM32 peripherals into a real-time application, including:
 
-I2S full-duplex communication using DMA
-ADC-based real-time parameter control
-Interrupt-driven processing
-Buffer management for low-latency audio streaming
-Basic digital signal processing techniques
+* I2S full-duplex communication using DMA
+* ADC-based real-time parameter control
+* Interrupt-driven processing
+* Buffer management for low-latency audio streaming
+* Basic digital signal processing techniques
 
 Its primary purpose is educational and demonstrative, showcasing common embedded software design patterns used in real-time audio applications.
 
