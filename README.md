@@ -184,7 +184,6 @@ The majority of the DSP logic is implemented in `main.c`, while reusable audio u
 
 * STM32CubeIDE
 * STM32 HAL Drivers
-* GCC ARM Embedded Toolchain
 
 ---
 
@@ -211,16 +210,6 @@ Possible future extensions include:
 * Any other audio effects inserted between the pre-gain and master output stages.
 * OLED display
 * UART or USB parameter control
-
----
-
-## System Schematic
-
-The following schematic shows the hardware connections between the STM32F407, the audio codec devices and the user interface.
-
-<p align="center">
-  <img src="images/system_schematic.png" width="900">
-</p>
 
 ---
 
